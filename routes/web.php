@@ -17,6 +17,19 @@ Route::get('/', function () {
     return view('welcome');
 })->name('welcome');
 
-Route::get('/index', function () {
-    return view('welcome');
-})->name('index');
+
+Route::get('/home', function () {
+    return view('home');
+})->name('home');
+
+Route::get('/Contact', function () {
+    return view('Contact');
+})->name('Contact');
+
+Route::get('/service', function () {
+    return view('service');
+})->name('service');
+
+Route::get('/aboutus', function () {
+    return view('aboutus');
+})->name('aboutus');
